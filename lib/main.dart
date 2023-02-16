@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:restapi/screens/homescreen.dart';
+import 'package:restapi/splashscreen.dart';
 
 void main() {
   runApp(
@@ -8,7 +8,7 @@ void main() {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     ),
   );
 }
